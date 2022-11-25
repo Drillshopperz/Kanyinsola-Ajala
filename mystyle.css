@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+body {
+    font-family: 'Roboto Condensed';
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.navigation {
+    background-color: rgb(231, 14, 213);
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 6.38vw;
+    padding-right: 6.38vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link {
+    display: flex;
+    gap: 30px;
+    
+}
+@media (max-width: 800px){.hidden{
+    display: none} 
+} 
+    .display{
+        display: flex;
+        background-color:  rgb(231, 14, 213);
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    h1{
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+    body {
+        background-color: black;
+        color: white;
+    }
+    h2 {
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+    footer {
+        display: flex;
+        justify-content: flex-end;
+        color: white;
+        margin-top: auto;
+
+    }
+
+
+p{
+    color: white;
+}   
+.describe {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(231, 14, 213); 
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 10%;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+    
+    
+}
+li {
+    color: white;
+}
+.top {
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-radius: 33%;
+    text-decoration: none;
+}
+.client {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+    background-color:  rgb(231, 14, 213);
+    padding-top: 20px;
+}
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+.shopping {
+    display: flex;
+    flex-direction: column;
+    background-color:  black;
+    margin-left: 10px;
+    margin-bottom: 40px; 
+    margin-top: 40px;
+    
+}
