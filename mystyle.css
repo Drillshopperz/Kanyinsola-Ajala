@@ -39,8 +39,7 @@ body {
         background-color:  rgb(231, 14, 213);
         align-content: space-evenly;
         flex-wrap: wrap;
-        margin-top: 30px;
-        margin-bottom: 40px;
+        
     }
 
     h1{
